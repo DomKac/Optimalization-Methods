@@ -1,0 +1,37 @@
+data;
+
+set FirstClassProduct   := 'A' 'B';
+set SecondClassProduct  := 'C' 'D';
+
+param: Material: material_storage_max material_storage_min material_cost :=
+1   6000    2000    2.1    
+2   5000    3000    1.6
+3   7000    4000    1.0;
+
+param: Product: product_value := 
+                                'A'   3
+                                'B'   2.5
+                                'C'   0.6
+                                'D'   0.5;
+
+param waste_utilization_cost: 'A'   'B'  :=
+                         1     0.1  0.05
+                         2     0.1  0.05
+                         3     0.2  0.40;
+
+param percentage_waste:   'A'  'B'   :=
+                      1   0.1  0.2
+                      2   0.2  0.2
+                      3   0.4  0.5;
+
+param mix_not_bigger_than_constraint :   'A' 'B' 'C' 'D' :=
+                                     1   1.0 1.0 0.2 0.0
+                                     2   1.0 1.0 0.0 0.3
+                                     3   0.1 0.3 0.0 0.0;
+
+param mix_not_smaller_than_constraint :   'A' 'B' 'C' 'D' :=
+                                      1   0.2 0.0 0.2 0.0
+                                      2   0.4 0.0 0.0 0.3
+                                      3   0.0 0.3 0.0 0.0;
+
+end;

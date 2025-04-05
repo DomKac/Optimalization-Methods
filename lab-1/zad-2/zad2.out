@@ -1,0 +1,839 @@
+Problem:    zad2
+Rows:       66
+Columns:    338
+Non-zeros:  1495
+Status:     OPTIMAL
+Objective:  Cost = 20595.8 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Cost         B        20595.8                             
+     2 send_less_than_surplus_S[warszawa]
+                    B             14                          14 
+     3 send_less_than_surplus_S[gdansk]
+                    B              0                          -0 
+     4 send_less_than_surplus_S[szczecin]
+                    NU            12                          12       -222.05 
+     5 send_less_than_surplus_S[wroclaw]
+                    B              0                          -0 
+     6 send_less_than_surplus_S[krakow]
+                    B             10                          10 
+     7 send_less_than_surplus_S[berlin]
+                    B              0                          -0 
+     8 send_less_than_surplus_S[rostok]
+                    B              0                          -0 
+     9 send_less_than_surplus_S[lipsk]
+                    B              0                          -0 
+    10 send_less_than_surplus_S[praga]
+                    NU            10                          10        -23.05 
+    11 send_less_than_surplus_S[brno]
+                    B              0                          -0 
+    12 send_less_than_surplus_S[bratyslawa]
+                    B              0                          -0 
+    13 send_less_than_surplus_S[koszyce]
+                    B              0                          -0 
+    14 send_less_than_surplus_S[budapeszt]
+                    B              0                          -0 
+    15 send_less_than_surplus_V[warszawa]
+                    B              0                          -0 
+    16 send_less_than_surplus_V[gdansk]
+                    NU             2                           2       -289.25 
+    17 send_less_than_surplus_V[szczecin]
+                    NU             4                           4       -199.55 
+    18 send_less_than_surplus_V[wroclaw]
+                    NU            10                          10          -272 
+    19 send_less_than_surplus_V[krakow]
+                    B              0                          -0 
+    20 send_less_than_surplus_V[berlin]
+                    B              0                          -0 
+    21 send_less_than_surplus_V[rostok]
+                    NU             4                           4        -104.1 
+    22 send_less_than_surplus_V[lipsk]
+                    NU            10                          10       -148.95 
+    23 send_less_than_surplus_V[praga]
+                    B              0                          -0 
+    24 send_less_than_surplus_V[brno]
+                    NU             2                           2       -204.15 
+    25 send_less_than_surplus_V[bratyslawa]
+                    NU             8                           8        -78.55 
+    26 send_less_than_surplus_V[koszyce]
+                    NU             4                           4        -290.4 
+    27 send_less_than_surplus_V[budapeszt]
+                    NU             4                           4       -301.65 
+    28 fill_deficit_S[warszawa]
+                    B              4            -0               
+    29 fill_deficit_S[gdansk]
+                    NL            20            20                      591.05 
+    30 fill_deficit_S[szczecin]
+                    B              0            -0               
+    31 fill_deficit_S[wroclaw]
+                    NL             8             8                         272 
+    32 fill_deficit_S[krakow]
+                    B              8            -0               
+    33 fill_deficit_S[berlin]
+                    B             20            16               
+    34 fill_deficit_S[rostok]
+                    NL             2             2                       104.1 
+    35 fill_deficit_S[lipsk]
+                    NL             3             3                      148.95 
+    36 fill_deficit_S[praga]
+                    B              4            -0               
+    37 fill_deficit_S[brno]
+                    NL             9             9                      228.05 
+    38 fill_deficit_S[bratyslawa]
+                    NL             4             4                       78.55 
+    39 fill_deficit_S[koszyce]
+                    NL             4             4                         257 
+    40 fill_deficit_S[budapeszt]
+                    NL             8             8                      301.65 
+    41 fill_deficit_V[warszawa]
+                    NL             4             4                      680.25 
+    42 fill_deficit_V[gdansk]
+                    B              2            -0               
+    43 fill_deficit_V[szczecin]
+                    B              0            -0               
+    44 fill_deficit_V[wroclaw]
+                    B              2            -0               
+    45 fill_deficit_V[krakow]
+                    NL             8             8                       584.8 
+    46 fill_deficit_V[berlin]
+                    B              9             4               
+    47 fill_deficit_V[rostok]
+                    B              2            -0               
+    48 fill_deficit_V[lipsk]
+                    B              3            -0               
+    49 fill_deficit_V[praga]
+                    NL             4             4                      441.05 
+    50 fill_deficit_V[brno]
+                    B              2            -0               
+    51 fill_deficit_V[bratyslawa]
+                    B              4            -0               
+    52 fill_deficit_V[koszyce]
+                    B              0            -0               
+    53 fill_deficit_V[budapeszt]
+                    B              8            -0               
+    54 deficit_equal_getted[warszawa]
+                    B              4             4               
+    55 deficit_equal_getted[gdansk]
+                    B             20            20               
+    56 deficit_equal_getted[szczecin]
+                    B              0            -0               
+    57 deficit_equal_getted[wroclaw]
+                    B              8             8               
+    58 deficit_equal_getted[krakow]
+                    B              8             8               
+    59 deficit_equal_getted[berlin]
+                    NL            20            20                      372.05 
+    60 deficit_equal_getted[rostok]
+                    B              2             2               
+    61 deficit_equal_getted[lipsk]
+                    B              3             3               
+    62 deficit_equal_getted[praga]
+                    B              4             4               
+    63 deficit_equal_getted[brno]
+                    B              9             9               
+    64 deficit_equal_getted[bratyslawa]
+                    B              4             4               
+    65 deficit_equal_getted[koszyce]
+                    B              4             4               
+    66 deficit_equal_getted[budapeszt]
+                    B              8             8               
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 campers_standard[warszawa,warszawa]
+                    NL             0             0            14         < eps
+     2 campers_standard[warszawa,gdansk]
+                    NU            14             0            14       -251.05 
+     3 campers_standard[warszawa,szczecin]
+                    NL             0             0            14           567 
+     4 campers_standard[warszawa,wroclaw]
+                    NL             0             0            14            79 
+     5 campers_standard[warszawa,krakow]
+                    NL             0             0            14           299 
+     6 campers_standard[warszawa,berlin]
+                    NL             0             0            14        200.95 
+     7 campers_standard[warszawa,rostok]
+                    NL             0             0            14         692.9 
+     8 campers_standard[warszawa,lipsk]
+                    NL             0             0            14        578.05 
+     9 campers_standard[warszawa,praga]
+                    NL             0             0            14           741 
+    10 campers_standard[warszawa,brno]
+                    NL             0             0            14        311.95 
+    11 campers_standard[warszawa,bratyslawa]
+                    NL             0             0            14        583.45 
+    12 campers_standard[warszawa,koszyce]
+                    NL             0             0            14           273 
+    13 campers_standard[warszawa,budapeszt]
+                    NL             0             0            14        556.35 
+    14 campers_standard[gdansk,warszawa]
+                    NS             0             0             =           340 
+    15 campers_standard[gdansk,gdansk]
+                    NS             0             0             =       -591.05 
+    16 campers_standard[gdansk,szczecin]
+                    NS             0             0             =           368 
+    17 campers_standard[gdansk,wroclaw]
+                    NS             0             0             =           210 
+    18 campers_standard[gdansk,krakow]
+                    NS             0             0             =           598 
+    19 campers_standard[gdansk,berlin]
+                    NS             0             0             =        138.95 
+    20 campers_standard[gdansk,rostok]
+                    NS             0             0             =         523.9 
+    21 campers_standard[gdansk,lipsk]
+                    NS             0             0             =        578.05 
+    22 campers_standard[gdansk,praga]
+                    NS             0             0             =           734 
+    23 campers_standard[gdansk,brno]
+                    NS             0             0             =        536.95 
+    24 campers_standard[gdansk,bratyslawa]
+                    NS             0             0             =        808.45 
+    25 campers_standard[gdansk,koszyce]
+                    NS             0             0             =           589 
+    26 campers_standard[gdansk,budapeszt]
+                    NS             0             0             =        782.35 
+    27 campers_standard[szczecin,warszawa]
+                    NL             0             0            12        781.05 
+    28 campers_standard[szczecin,gdansk]
+                    B              4             0            12 
+    29 campers_standard[szczecin,szczecin]
+                    NL             0             0            12        222.05 
+    30 campers_standard[szczecin,wroclaw]
+                    NL             0             0            12        345.05 
+    31 campers_standard[szczecin,krakow]
+                    NL             0             0            12        870.05 
+    32 campers_standard[szczecin,berlin]
+                    B              8             0            12 
+    33 campers_standard[szczecin,rostok]
+                    NL             0             0            12        360.95 
+    34 campers_standard[szczecin,lipsk]
+                    NL             0             0            12         438.1 
+    35 campers_standard[szczecin,praga]
+                    NL             0             0            12        720.05 
+    36 campers_standard[szczecin,brno]
+                    NL             0             0            12           605 
+    37 campers_standard[szczecin,bratyslawa]
+                    NL             0             0            12         891.5 
+    38 campers_standard[szczecin,koszyce]
+                    NL             0             0            12        861.05 
+    39 campers_standard[szczecin,budapeszt]
+                    NL             0             0            12         864.4 
+    40 campers_standard[wroclaw,warszawa]
+                    NS             0             0             =           355 
+    41 campers_standard[wroclaw,gdansk]
+                    NS             0             0             =       -109.05 
+    42 campers_standard[wroclaw,szczecin]
+                    NS             0             0             =           418 
+    43 campers_standard[wroclaw,wroclaw]
+                    NS             0             0             =          -272 
+    44 campers_standard[wroclaw,krakow]
+                    NS             0             0             =           272 
+    45 campers_standard[wroclaw,berlin]
+                    NS             0             0             =        -28.05 
+    46 campers_standard[wroclaw,rostok]
+                    NS             0             0             =         490.9 
+    47 campers_standard[wroclaw,lipsk]
+                    NS             0             0             =        232.05 
+    48 campers_standard[wroclaw,praga]
+                    NS             0             0             =           286 
+    49 campers_standard[wroclaw,brno]
+                    NS             0             0             =        173.95 
+    50 campers_standard[wroclaw,bratyslawa]
+                    NS             0             0             =        331.45 
+    51 campers_standard[wroclaw,koszyce]
+                    NS             0             0             =           263 
+    52 campers_standard[wroclaw,budapeszt]
+                    NS             0             0             =        372.35 
+    53 campers_standard[krakow,warszawa]
+                    NL             0             0            10           292 
+    54 campers_standard[krakow,gdansk]
+                    NL             0             0            10          3.95 
+    55 campers_standard[krakow,szczecin]
+                    NL             0             0            10           651 
+    56 campers_standard[krakow,wroclaw]
+                    B              6             0            10 
+    57 campers_standard[krakow,krakow]
+                    NL             0             0            10         < eps
+    58 campers_standard[krakow,berlin]
+                    NL             0             0            10        228.95 
+    59 campers_standard[krakow,rostok]
+                    NL             0             0            10         747.9 
+    60 campers_standard[krakow,lipsk]
+                    NL             0             0            10        488.05 
+    61 campers_standard[krakow,praga]
+                    NL             0             0            10           535 
+    62 campers_standard[krakow,brno]
+                    NL             0             0            10        105.95 
+    63 campers_standard[krakow,bratyslawa]
+                    NL             0             0            10        377.45 
+    64 campers_standard[krakow,koszyce]
+                    B              4             0            10 
+    65 campers_standard[krakow,budapeszt]
+                    NL             0             0            10         93.35 
+    66 campers_standard[berlin,warszawa]
+                    NS             0             0             =           593 
+    67 campers_standard[berlin,gdansk]
+                    NS             0             0             =        -80.05 
+    68 campers_standard[berlin,szczecin]
+                    NS             0             0             =           150 
+    69 campers_standard[berlin,wroclaw]
+                    NS             0             0             =            74 
+    70 campers_standard[berlin,krakow]
+                    NS             0             0             =           598 
+    71 campers_standard[berlin,berlin]
+                    NS             0             0             =       -372.05 
+    72 campers_standard[berlin,rostok]
+                    NS             0             0             =         129.9 
+    73 campers_standard[berlin,lipsk]
+                    NS             0             0             =         42.05 
+    74 campers_standard[berlin,praga]
+                    NS             0             0             =           349 
+    75 campers_standard[berlin,brno]
+                    NS             0             0             =        323.95 
+    76 campers_standard[berlin,bratyslawa]
+                    NS             0             0             =        596.45 
+    77 campers_standard[berlin,koszyce]
+                    NS             0             0             =           589 
+    78 campers_standard[berlin,budapeszt]
+                    NS             0             0             =        570.35 
+    79 campers_standard[rostok,warszawa]
+                    NS             0             0             =           797 
+    80 campers_standard[rostok,gdansk]
+                    NS             0             0             =         30.95 
+    81 campers_standard[rostok,szczecin]
+                    NS             0             0             =           244 
+    82 campers_standard[rostok,wroclaw]
+                    NS             0             0             =           302 
+    83 campers_standard[rostok,krakow]
+                    NS             0             0             =           827 
+    84 campers_standard[rostok,berlin]
+                    NS             0             0             =       -139.05 
+    85 campers_standard[rostok,rostok]
+                    NS             0             0             =        -104.1 
+    86 campers_standard[rostok,lipsk]
+                    NS             0             0             =        235.05 
+    87 campers_standard[rostok,praga]
+                    NS             0             0             =           577 
+    88 campers_standard[rostok,brno]
+                    NS             0             0             =        552.95 
+    89 campers_standard[rostok,bratyslawa]
+                    NS             0             0             =        825.45 
+    90 campers_standard[rostok,koszyce]
+                    NS             0             0             =           818 
+    91 campers_standard[rostok,budapeszt]
+                    NS             0             0             =        821.35 
+    92 campers_standard[lipsk,warszawa]
+                    NS             0             0             =           725 
+    93 campers_standard[lipsk,gdansk]
+                    NS             0             0             =        133.95 
+    94 campers_standard[lipsk,szczecin]
+                    NS             0             0             =           363 
+    95 campers_standard[lipsk,wroclaw]
+                    NS             0             0             =           102 
+    96 campers_standard[lipsk,krakow]
+                    NS             0             0             =           626 
+    97 campers_standard[lipsk,berlin]
+                    NS             0             0             =       -178.05 
+    98 campers_standard[lipsk,rostok]
+                    NS             0             0             =         277.9 
+    99 campers_standard[lipsk,lipsk]
+                    NS             0             0             =       -148.95 
+   100 campers_standard[lipsk,praga]
+                    NS             0             0             =           254 
+   101 campers_standard[lipsk,brno]
+                    NS             0             0             =        226.95 
+   102 campers_standard[lipsk,bratyslawa]
+                    NS             0             0             =        499.45 
+   103 campers_standard[lipsk,koszyce]
+                    NS             0             0             =           617 
+   104 campers_standard[lipsk,budapeszt]
+                    NS             0             0             =        473.35 
+   105 campers_standard[praga,warszawa]
+                    NL             0             0            10        711.05 
+   106 campers_standard[praga,gdansk]
+                    NL             0             0            10           166 
+   107 campers_standard[praga,szczecin]
+                    NL             0             0            10        521.05 
+   108 campers_standard[praga,wroclaw]
+                    NL             0             0            10         40.05 
+   109 campers_standard[praga,krakow]
+                    NL             0             0            10        558.05 
+   110 campers_standard[praga,berlin]
+                    B              3             0            10 
+   111 campers_standard[praga,rostok]
+                    NL             0             0            10        518.95 
+   112 campers_standard[praga,lipsk]
+                    NL             0             0            10         129.1 
+   113 campers_standard[praga,praga]
+                    NL             0             0            10         23.05 
+   114 campers_standard[praga,brno]
+                    B              7             0            10 
+   115 campers_standard[praga,bratyslawa]
+                    NL             0             0            10         272.5 
+   116 campers_standard[praga,koszyce]
+                    NL             0             0            10        429.05 
+   117 campers_standard[praga,budapeszt]
+                    NL             0             0            10         246.4 
+   118 campers_standard[brno,warszawa]
+                    NS             0             0             =           539 
+   119 campers_standard[brno,gdansk]
+                    NS             0             0             =        171.95 
+   120 campers_standard[brno,szczecin]
+                    NS             0             0             =           612 
+   121 campers_standard[brno,wroclaw]
+                    NS             0             0             =            80 
+   122 campers_standard[brno,krakow]
+                    NS             0             0             =           331 
+   123 campers_standard[brno,berlin]
+                    NS             0             0             =        181.95 
+   124 campers_standard[brno,rostok]
+                    NS             0             0             =         700.9 
+   125 campers_standard[brno,lipsk]
+                    NS             0             0             =        311.05 
+   126 campers_standard[brno,praga]
+                    NS             0             0             =           206 
+   127 campers_standard[brno,brno]
+                    NS             0             0             =       -228.05 
+   128 campers_standard[brno,bratyslawa]
+                    NS             0             0             =         51.45 
+   129 campers_standard[brno,koszyce]
+                    NS             0             0             =           203 
+   130 campers_standard[brno,budapeszt]
+                    NS             0             0             =         24.35 
+   131 campers_standard[bratyslawa,warszawa]
+                    NS             0             0             =           652 
+   132 campers_standard[bratyslawa,gdansk]
+                    NS             0             0             =        284.95 
+   133 campers_standard[bratyslawa,szczecin]
+                    NS             0             0             =           750 
+   134 campers_standard[bratyslawa,wroclaw]
+                    NS             0             0             =           141 
+   135 campers_standard[bratyslawa,krakow]
+                    NS             0             0             =           455 
+   136 campers_standard[bratyslawa,berlin]
+                    NS             0             0             =        304.95 
+   137 campers_standard[bratyslawa,rostok]
+                    NS             0             0             =         823.9 
+   138 campers_standard[bratyslawa,lipsk]
+                    NS             0             0             =        434.05 
+   139 campers_standard[bratyslawa,praga]
+                    NS             0             0             =           328 
+   140 campers_standard[bratyslawa,brno]
+                    NS             0             0             =        -98.05 
+   141 campers_standard[bratyslawa,bratyslawa]
+                    NS             0             0             =        -78.55 
+   142 campers_standard[bratyslawa,koszyce]
+                    NS             0             0             =           146 
+   143 campers_standard[bratyslawa,budapeszt]
+                    NS             0             0             =       -107.65 
+   144 campers_standard[koszyce,warszawa]
+                    NS             0             0             =           528 
+   145 campers_standard[koszyce,gdansk]
+                    NS             0             0             =        250.95 
+   146 campers_standard[koszyce,szczecin]
+                    NS             0             0             =           896 
+   147 campers_standard[koszyce,wroclaw]
+                    NS             0             0             =           247 
+   148 campers_standard[koszyce,krakow]
+                    NS             0             0             =           256 
+   149 campers_standard[koszyce,berlin]
+                    NS             0             0             =        473.95 
+   150 campers_standard[koszyce,rostok]
+                    NS             0             0             =         992.9 
+   151 campers_standard[koszyce,lipsk]
+                    NS             0             0             =        772.05 
+   152 campers_standard[koszyce,praga]
+                    NS             0             0             =           659 
+   153 campers_standard[koszyce,brno]
+                    NS             0             0             =        229.95 
+   154 campers_standard[koszyce,bratyslawa]
+                    NS             0             0             =        359.45 
+   155 campers_standard[koszyce,koszyce]
+                    NS             0             0             =          -257 
+   156 campers_standard[koszyce,budapeszt]
+                    NS             0             0             =        -39.65 
+   157 campers_standard[budapeszt,warszawa]
+                    NS             0             0             =           783 
+   158 campers_standard[budapeszt,gdansk]
+                    NS             0             0             =        415.95 
+   159 campers_standard[budapeszt,szczecin]
+                    NS             0             0             =          1022 
+   160 campers_standard[budapeszt,wroclaw]
+                    NS             0             0             =           337 
+   161 campers_standard[budapeszt,krakow]
+                    NS             0             0             =           395 
+   162 campers_standard[budapeszt,berlin]
+                    NS             0             0             =        501.95 
+   163 campers_standard[budapeszt,rostok]
+                    NS             0             0             =        1019.9 
+   164 campers_standard[budapeszt,lipsk]
+                    NS             0             0             =        626.05 
+   165 campers_standard[budapeszt,praga]
+                    NS             0             0             =           525 
+   166 campers_standard[budapeszt,brno]
+                    NS             0             0             =         97.95 
+   167 campers_standard[budapeszt,bratyslawa]
+                    NS             0             0             =        122.45 
+   168 campers_standard[budapeszt,koszyce]
+                    NS             0             0             =             5 
+   169 campers_standard[budapeszt,budapeszt]
+                    NS             0             0             =       -301.65 
+   170 campers_vip[warszawa,warszawa]
+                    NS             0             0             =       -680.25 
+   171 campers_vip[warszawa,gdansk]
+                    NS             0             0             =       -200.05 
+   172 campers_vip[warszawa,szczecin]
+                    NS             0             0             =        652.05 
+   173 campers_vip[warszawa,wroclaw]
+                    NS             0             0             =        131.65 
+   174 campers_vip[warszawa,krakow]
+                    NS             0             0             =       -240.95 
+   175 campers_vip[warszawa,berlin]
+                    NS             0             0             =         286.9 
+   176 campers_vip[warszawa,rostok]
+                    NS             0             0             =        812.45 
+   177 campers_vip[warszawa,lipsk]
+                    NS             0             0             =         687.1 
+   178 campers_vip[warszawa,praga]
+                    NS             0             0             =         411.1 
+   179 campers_vip[warszawa,brno]
+                    NS             0             0             =        392.95 
+   180 campers_vip[warszawa,bratyslawa]
+                    NS             0             0             =        682.75 
+   181 campers_vip[warszawa,koszyce]
+                    NS             0             0             =         352.5 
+   182 campers_vip[warszawa,budapeszt]
+                    NS             0             0             =        685.05 
+   183 campers_vip[gdansk,warszawa]
+                    B              0             0             2 
+   184 campers_vip[gdansk,gdansk]
+                    NU             2             0             2        -301.8 
+   185 campers_vip[gdansk,szczecin]
+                    NL             0             0             2        712.45 
+   186 campers_vip[gdansk,wroclaw]
+                    NL             0             0             2        571.55 
+   187 campers_vip[gdansk,krakow]
+                    NL             0             0             2        392.15 
+   188 campers_vip[gdansk,berlin]
+                    NL             0             0             2        504.85 
+   189 campers_vip[gdansk,rostok]
+                    NL             0             0             2        907.35 
+   190 campers_vip[gdansk,lipsk]
+                    NL             0             0             2        976.35 
+   191 campers_vip[gdansk,praga]
+                    NL             0             0             2         692.3 
+   192 campers_vip[gdansk,brno]
+                    NL             0             0             2        940.95 
+   193 campers_vip[gdansk,bratyslawa]
+                    NL             0             0             2       1230.75 
+   194 campers_vip[gdansk,koszyce]
+                    NL             0             0             2       1005.15 
+   195 campers_vip[gdansk,budapeszt]
+                    NL             0             0             2        1234.2 
+   196 campers_vip[szczecin,warszawa]
+                    NL             0             0             4        162.15 
+   197 campers_vip[szczecin,gdansk]
+                    NL             0             0             4         32.85 
+   198 campers_vip[szczecin,szczecin]
+                    NL             0             0             4        199.55 
+   199 campers_vip[szczecin,wroclaw]
+                    NL             0             0             4         381.8 
+   200 campers_vip[szczecin,krakow]
+                    NL             0             0             4        359.95 
+   201 campers_vip[szczecin,berlin]
+                    B              4             0             4 
+   202 campers_vip[szczecin,rostok]
+                    NL             0             0             4         374.9 
+   203 campers_vip[szczecin,lipsk]
+                    NL             0             0             4        470.35 
+   204 campers_vip[szczecin,praga]
+                    NL             0             0             4         331.2 
+   205 campers_vip[szczecin,brno]
+                    NL             0             0             4        674.15 
+   206 campers_vip[szczecin,bratyslawa]
+                    NL             0             0             4         981.2 
+   207 campers_vip[szczecin,koszyce]
+                    NL             0             0             4        972.95 
+   208 campers_vip[szczecin,budapeszt]
+                    NL             0             0             4         983.5 
+   209 campers_vip[wroclaw,warszawa]
+                    B              4             0            10 
+   210 campers_vip[wroclaw,gdansk]
+                    NL             0             0            10        235.25 
+   211 campers_vip[wroclaw,szczecin]
+                    NL             0             0            10         752.7 
+   212 campers_vip[wroclaw,wroclaw]
+                    B              2             0            10 
+   213 campers_vip[wroclaw,krakow]
+                    B              4             0            10 
+   214 campers_vip[wroclaw,berlin]
+                    NL             0             0            10        295.55 
+   215 campers_vip[wroclaw,rostok]
+                    NL             0             0            10        852.15 
+   216 campers_vip[wroclaw,lipsk]
+                    NL             0             0            10         561.2 
+   217 campers_vip[wroclaw,praga]
+                    NL             0             0            10        159.85 
+   218 campers_vip[wroclaw,brno]
+                    NL             0             0            10        506.25 
+   219 campers_vip[wroclaw,bratyslawa]
+                    NL             0             0            10        664.95 
+   220 campers_vip[wroclaw,koszyce]
+                    NL             0             0            10           613 
+   221 campers_vip[wroclaw,budapeszt]
+                    NL             0             0            10        745.45 
+   222 campers_vip[krakow,warszawa]
+                    NS             0             0             =       -344.45 
+   223 campers_vip[krakow,gdansk]
+                    NS             0             0             =          93.2 
+   224 campers_vip[krakow,szczecin]
+                    NS             0             0             =        748.65 
+   225 campers_vip[krakow,wroclaw]
+                    NS             0             0             =          40.8 
+   226 campers_vip[krakow,krakow]
+                    NS             0             0             =        -584.8 
+   227 campers_vip[krakow,berlin]
+                    NS             0             0             =         319.1 
+   228 campers_vip[krakow,rostok]
+                    NS             0             0             =         875.7 
+   229 campers_vip[krakow,lipsk]
+                    NS             0             0             =         583.6 
+   230 campers_vip[krakow,praga]
+                    NS             0             0             =         174.2 
+   231 campers_vip[krakow,brno]
+                    NS             0             0             =        156.05 
+   232 campers_vip[krakow,bratyslawa]
+                    NS             0             0             =        445.85 
+   233 campers_vip[krakow,koszyce]
+                    NS             0             0             =         38.55 
+   234 campers_vip[krakow,budapeszt]
+                    NS             0             0             =         152.6 
+   235 campers_vip[berlin,warszawa]
+                    NS             0             0             =           1.7 
+   236 campers_vip[berlin,gdansk]
+                    NS             0             0             =          -3.4 
+   237 campers_vip[berlin,szczecin]
+                    NS             0             0             =         172.5 
+   238 campers_vip[berlin,wroclaw]
+                    NS             0             0             =         125.9 
+   239 campers_vip[berlin,krakow]
+                    NS             0             0             =         102.9 
+   240 campers_vip[berlin,berlin]
+                    NS             0             0             =       -372.05 
+   241 campers_vip[berlin,rostok]
+                    NS             0             0             =           165 
+   242 campers_vip[berlin,lipsk]
+                    NS             0             0             =          70.7 
+   243 campers_vip[berlin,praga]
+                    NS             0             0             =         -39.7 
+   244 campers_vip[berlin,brno]
+                    NS             0             0             =        406.75 
+   245 campers_vip[berlin,bratyslawa]
+                    NS             0             0             =         697.7 
+   246 campers_vip[berlin,koszyce]
+                    NS             0             0             =         715.9 
+   247 campers_vip[berlin,budapeszt]
+                    NS             0             0             =        701.15 
+   248 campers_vip[rostok,warszawa]
+                    NL             0             0             4         340.4 
+   249 campers_vip[rostok,gdansk]
+                    NL             0             0             4        228.35 
+   250 campers_vip[rostok,szczecin]
+                    NL             0             0             4         384.7 
+   251 campers_vip[rostok,wroclaw]
+                    NL             0             0             4         492.2 
+   252 campers_vip[rostok,krakow]
+                    NL             0             0             4        470.35 
+   253 campers_vip[rostok,berlin]
+                    B              2             0             4 
+   254 campers_vip[rostok,rostok]
+                    B              2             0             4 
+   255 campers_vip[rostok,lipsk]
+                    NL             0             0             4        396.75 
+   256 campers_vip[rostok,praga]
+                    NL             0             0             4         326.6 
+   257 campers_vip[rostok,brno]
+                    NL             0             0             4         774.2 
+   258 campers_vip[rostok,bratyslawa]
+                    NL             0             0             4       1065.15 
+   259 campers_vip[rostok,koszyce]
+                    NL             0             0             4       1083.35 
+   260 campers_vip[rostok,budapeszt]
+                    NL             0             0             4        1093.9 
+   261 campers_vip[lipsk,warszawa]
+                    NL             0             0            10        302.45 
+   262 campers_vip[lipsk,gdansk]
+                    NL             0             0            10        391.65 
+   263 campers_vip[lipsk,szczecin]
+                    NL             0             0            10         566.4 
+   264 campers_vip[lipsk,wroclaw]
+                    NL             0             0            10        307.05 
+   265 campers_vip[lipsk,krakow]
+                    NL             0             0            10        284.05 
+   266 campers_vip[lipsk,berlin]
+                    B              3             0            10 
+   267 campers_vip[lipsk,rostok]
+                    NL             0             0            10        484.15 
+   268 campers_vip[lipsk,lipsk]
+                    B              3             0            10 
+   269 campers_vip[lipsk,praga]
+                    B              4             0            10 
+   270 campers_vip[lipsk,brno]
+                    NL             0             0            10        444.15 
+   271 campers_vip[lipsk,bratyslawa]
+                    NL             0             0            10         735.1 
+   272 campers_vip[lipsk,koszyce]
+                    NL             0             0            10        897.05 
+   273 campers_vip[lipsk,budapeszt]
+                    NL             0             0            10        738.55 
+   274 campers_vip[praga,warszawa]
+                    NS             0             0             =        110.95 
+   275 campers_vip[praga,gdansk]
+                    NS             0             0             =        253.05 
+   276 campers_vip[praga,szczecin]
+                    NS             0             0             =         572.7 
+   277 campers_vip[praga,wroclaw]
+                    NS             0             0             =         60.35 
+   278 campers_vip[praga,krakow]
+                    NS             0             0             =         30.45 
+   279 campers_vip[praga,berlin]
+                    NS             0             0             =          29.3 
+   280 campers_vip[praga,rostok]
+                    NS             0             0             =         585.9 
+   281 campers_vip[praga,lipsk]
+                    NS             0             0             =         144.3 
+   282 campers_vip[praga,praga]
+                    NS             0             0             =       -441.05 
+   283 campers_vip[praga,brno]
+                    NS             0             0             =           7.7 
+   284 campers_vip[praga,bratyslawa]
+                    NS             0             0             =        298.65 
+   285 campers_vip[praga,koszyce]
+                    NS             0             0             =        505.45 
+   286 campers_vip[praga,budapeszt]
+                    NS             0             0             =         302.1 
+   287 campers_vip[brno,warszawa]
+                    NL             0             0             2        143.75 
+   288 campers_vip[brno,gdansk]
+                    NL             0             0             2        490.55 
+   289 campers_vip[brno,szczecin]
+                    NL             0             0             2        907.95 
+   290 campers_vip[brno,wroclaw]
+                    NL             0             0             2        336.95 
+   291 campers_vip[brno,krakow]
+                    B              0             0             2 
+   292 campers_vip[brno,berlin]
+                    NL             0             0             2         469.2 
+   293 campers_vip[brno,rostok]
+                    NL             0             0             2        1025.8 
+   294 campers_vip[brno,lipsk]
+                    NL             0             0             2         584.2 
+   295 campers_vip[brno,praga]
+                    B              0             0             2 
+   296 campers_vip[brno,brno]
+                    NU             2             0             2         -23.9 
+   297 campers_vip[brno,bratyslawa]
+                    NL             0             0             2         275.1 
+   298 campers_vip[brno,koszyce]
+                    NL             0             0             2        476.15 
+   299 campers_vip[brno,budapeszt]
+                    NL             0             0             2         277.4 
+   300 campers_vip[bratyslawa,warszawa]
+                    NL             0             0             8         148.1 
+   301 campers_vip[bratyslawa,gdansk]
+                    NL             0             0             8         494.9 
+   302 campers_vip[bratyslawa,szczecin]
+                    NL             0             0             8        941.05 
+   303 campers_vip[bratyslawa,wroclaw]
+                    NL             0             0             8         281.5 
+   304 campers_vip[bratyslawa,krakow]
+                    NL             0             0             8            17 
+   305 campers_vip[bratyslawa,berlin]
+                    NL             0             0             8        485.05 
+   306 campers_vip[bratyslawa,rostok]
+                    NL             0             0             8       1041.65 
+   307 campers_vip[bratyslawa,lipsk]
+                    NL             0             0             8        600.05 
+   308 campers_vip[bratyslawa,praga]
+                    NL             0             0             8          14.7 
+   309 campers_vip[bratyslawa,brno]
+                    B              0             0             8 
+   310 campers_vip[bratyslawa,bratyslawa]
+                    B              4             0             8 
+   311 campers_vip[bratyslawa,koszyce]
+                    NL             0             0             8           285 
+   312 campers_vip[bratyslawa,budapeszt]
+                    B              4             0             8 
+   313 campers_vip[koszyce,warszawa]
+                    NL             0             0             4        217.35 
+   314 campers_vip[koszyce,gdansk]
+                    NL             0             0             4        667.65 
+   315 campers_vip[koszyce,szczecin]
+                    NL             0             0             4        1320.8 
+   316 campers_vip[koszyce,wroclaw]
+                    NL             0             0             4        615.25 
+   317 campers_vip[koszyce,krakow]
+                    B              4             0             4 
+   318 campers_vip[koszyce,berlin]
+                    NL             0             0             4        891.25 
+   319 campers_vip[koszyce,rostok]
+                    NL             0             0             4       1447.85 
+   320 campers_vip[koszyce,lipsk]
+                    NL             0             0             4        1200.6 
+   321 campers_vip[koszyce,praga]
+                    NL             0             0             4         607.2 
+   322 campers_vip[koszyce,brno]
+                    NL             0             0             4        589.05 
+   323 campers_vip[koszyce,bratyslawa]
+                    NL             0             0             4        715.55 
+   324 campers_vip[koszyce,koszyce]
+                    NL             0             0             4          33.4 
+   325 campers_vip[koszyce,budapeszt]
+                    NL             0             0             4        290.05 
+   326 campers_vip[budapeszt,warszawa]
+                    NL             0             0             4        521.85 
+   327 campers_vip[budapeszt,gdansk]
+                    NL             0             0             4        868.65 
+   328 campers_vip[budapeszt,szczecin]
+                    NL             0             0             4       1476.95 
+   329 campers_vip[budapeszt,wroclaw]
+                    NL             0             0             4           730 
+   330 campers_vip[budapeszt,krakow]
+                    NL             0             0             4         171.1 
+   331 campers_vip[budapeszt,berlin]
+                    NL             0             0             4         934.7 
+   332 campers_vip[budapeszt,rostok]
+                    NL             0             0             4       1490.15 
+   333 campers_vip[budapeszt,lipsk]
+                    NL             0             0             4       1043.95 
+   334 campers_vip[budapeszt,praga]
+                    NL             0             0             4        464.35 
+   335 campers_vip[budapeszt,brno]
+                    NL             0             0             4         448.5 
+   336 campers_vip[budapeszt,bratyslawa]
+                    NL             0             0             4        454.25 
+   337 campers_vip[budapeszt,koszyce]
+                    NL             0             0             4        345.95 
+   338 campers_vip[budapeszt,budapeszt]
+                    B              4             0             4 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.71e-13 on column 193
+        max.rel.err = 8.15e-16 on column 258
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

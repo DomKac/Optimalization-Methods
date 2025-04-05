@@ -1,0 +1,36 @@
+data;
+
+param: Cities: deficit_standard deficit_vip surplus_standard surplus_vip :=
+warszawa    0   4   14  0
+gdansk      20  0   0   2
+szczecin    0   0   12  4
+wroclaw     8   0   0   10
+krakow      0   8   10  0
+berlin      16  4   0   0
+rostok      2   0   0   4
+lipsk       3   0   0   10
+praga       0   4   10  0
+brno        9   0   0   2
+bratyslawa  4   0   0   8
+koszyce     4   0   0   4
+budapeszt   8   0   0   4;
+
+param cost_standard :=  1;
+param cost_vip :=       1.15;
+
+param distances: warszawa gdansk szczecin wroclaw krakow berlin rostok lipsk praga brno bratyslawa koszyce budapeszt :=
+warszawa        0 340 567 351 299 573 797 727 741 540 662 530 858 
+gdansk          340 0 368 482 598 511 628 727 734 765 887 846 1084 
+szczecin        559 369 0 395 648 150 243 365 498 611 748 896 944 
+wroclaw         355 482 418 0 272 344 595 381 286 402 410 520 674 
+krakow          292 595 651 272 0 601 852 637 535 334 456 257 395 
+berlin          593 511 150 346 598 0 234 191 349 552 675 846 872 
+rostok          797 622 244 574 827 233 0 384 577 781 904 1075 1123 
+lipsk           725 725 363 374 626 194 382 0 254 455 578 874 775 
+praga           688 734 498 289 535 349 600 255 0 205 328 663 525 
+brno            539 763 612 352 331 554 805 460 206 0 130 460 326 
+bratyslawa      652 876 750 413 455 677 928 583 328 130 0 403 194 
+koszyce         528 842 896 519 256 846 1097 921 659 458 438 0 262 
+budapeszt       783 1007 1022 609 395 874 1124 775 525 326 201 262 0;
+
+end;
